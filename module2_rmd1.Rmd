@@ -60,3 +60,20 @@ plot(pressure)
 knitr::kable (head(cars))
 ```
 
+
+
+## Insert Images
+
+Here is an image inserted
+
+![sunstar](sunstar.png)
+
+
+Here is the R logo
+
+![r logo](https://www.r-project.org/logo/Rlogo.svg)
+
+
+## Inset an Animated GIF and video
+
+! [sunstar](sunstar/sunstar.gif)
