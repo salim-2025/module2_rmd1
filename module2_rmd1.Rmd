@@ -3,8 +3,8 @@ title: "Module2 - R Markdown Document 1"
 author: "SALIM ABDULLAH"
 date: "2025-04-21"
 output:
-  word_document: default
   html_document: default
+  word_document: default
   pdf_document: default
 ---
 
@@ -47,3 +47,16 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r presure2, fig.height=4, fig.width=4, message=FALSE, paged.print=TRUE}
+plot(pressure)
+```
+
+
+
+## Insert Tables
+
+```{r}
+knitr::kable (head(cars))
+```
+
